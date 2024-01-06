@@ -21,7 +21,7 @@
 17. Banner
 18. Service
 19. Modal
-20. Skill
+20. RESUMEN
 21. Progressbar
 22. Testimonial
 23. Clients
@@ -7879,6 +7879,17 @@ xclip
 /*---------------------------
     Header Area Styles 
 -----------------------------*/
+
+.header-wrapper p{
+  color: var(--color-primary);
+  font-size: 30px;
+}
+
+.popup-mobile-menu p{
+  color: var(--color-primary);
+  font-size: 30px;
+}
+
 body.template-color-1 {
   background-color: #212428; }
 
@@ -10463,7 +10474,7 @@ div#featured-project-carousel {
   color: var(--color-lightn); }
 
 /*=====================
-    Skill Area 
+   RESUMEN Area 
 ========================*/
 @media only screen and (max-width: 479px) {
   .section-title.text-center span.subtitle {
@@ -12339,6 +12350,11 @@ div#featured-project-carousel {
 /*-----------------------
     Footer Style Two  
 --------------------------*/
+
+.rn-footer-area .logo p{
+  color: var(--color-primary);
+  font-size: 45px;
+}
 .footer-style-2 .copyright .description {
   color: var(--color-body);
   font-size: 18px; }
@@ -12475,6 +12491,73 @@ div#featured-project-carousel {
 /*---------------------------
     Portfolio Area Styles 
 -----------------------------*/
+
+.rn-nav-list1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  border: 0 none;
+  border-radius: 10px;
+  background: var(--background-color-1);
+  box-shadow: var(--shadow-1);
+  justify-content: space-between; }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .rn-nav-list1 {
+      margin-top: 30px;} }
+  @media only screen and (max-width: 767px) {
+    .rn-nav-list1 {
+      margin-top: 30px; } }
+  @media only screen and (max-width: 575px) {
+    .rn-nav-list1 {
+      margin-top: 30px; } }
+  .rn-nav-list1 .nav-item {
+    flex-basis: 16%;
+    text-align: center;
+    margin-top: 0; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .rn-nav-list1 .nav-item {
+        flex-basis: 55%; } }
+    @media only screen and (max-width: 767px) {
+      .rn-nav-list1 .nav-item {
+        flex-basis: 100%; } }
+    @media only screen and (max-width: 575px) {
+      .rn-nav-list1 .nav-item {
+        flex-basis: 100%; } }
+    @media only screen and (max-width: 479px) {
+      .rn-nav-list1 .nav-item {
+        flex-basis: 100%; } }
+    .rn-nav-list1 .nav-item .nav-link {
+      color: #c4cfde;
+      font-family: var(--font-primary);
+      padding: 30px 10px;
+      text-transform: capitalize;
+      font-size: var(--font-size-b1);
+      font-weight: 500;
+      outline: none;
+      border: 0 none;
+      transition: all .5s;
+      background: transparent;
+      border-radius: 10px; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .rn-nav-list1 .nav-item .nav-link {
+          padding: 25px 7px;
+          font-size: 14px; } }
+      @media only screen and (max-width: 767px) {
+        .rn-nav-list1 .nav-item .nav-link {
+          padding: 30px 6px;
+          padding: 18px 6px;
+          font-size: 13px; } }
+      @media only screen and (max-width: 767px) {
+        .rn-nav-list1 .nav-item .nav-link {
+          font-size: 18px; } }
+      .rn-nav-list1 .nav-item .nav-link:hover, .rn-nav-list1 .nav-item .nav-link.active {
+        color: #f6234f;
+        background-color: transparent;
+        border-color: transparent;
+        border: 0 none;
+        background: var(--background-color-1);
+        box-shadow: var(--shadow-1); }
+      
 .rn-portfolio,
 .rn-blog {
   text-align: left;
